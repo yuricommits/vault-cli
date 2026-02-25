@@ -17,7 +17,7 @@ func Init() {
 	viper.SetConfigName("config")
 	viper.SetConfigType("json")
 	viper.AddConfigPath(filepath.Join(configDir, "vault"))
-	viper.SetDefault(KeyBaseURL, "https://your-vault-app.com")
+	viper.SetDefault(KeyBaseURL, "https://vault-two-lovat.vercel.app")
 	viper.ReadInConfig()
 }
 
